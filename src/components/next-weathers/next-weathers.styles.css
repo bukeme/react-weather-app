@@ -1,0 +1,14 @@
+.next-weathers-component {
+	margin: 20px 0;
+}
+
+.next-weathers-component__title {
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+.next-weathers-component__container--weather {
+	display: flex;
+	justify-content: space-evenly;
+	background-color: rgba(0, 0, 0, .2);
+}

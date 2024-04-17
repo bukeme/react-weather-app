@@ -1,0 +1,38 @@
+.header-component {
+	display: flex;
+	justify-content: space-between;
+	align-items: start;
+}
+
+.city-container h1 {
+	font-size: 40px;
+	font-weight: 400;
+}
+
+.city-container p {
+	font-weight: 300;
+}
+
+form {
+	position: relative;
+}
+
+.search-input {
+	border: none;
+	outline: none;
+	padding: 10px 10px 10px 45px;
+	border-radius: 30px;
+	background-color: #0059dd;
+	width: 300px;
+}
+
+::placeholder {
+	color: rgba(255, 255, 255, 0.3);
+}
+
+.search-icon {
+	position: absolute;
+	top: 50%;
+	left: 15px;
+	transform: translateY(-50%);
+}

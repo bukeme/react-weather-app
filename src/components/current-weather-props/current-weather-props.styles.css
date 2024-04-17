@@ -1,0 +1,15 @@
+.current-weather-props-component {
+	padding: 0 40px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 40px;
+}
+
+.current-weather-props-component__item h2 {
+	font-size: 30px;
+	font-weight: 300;
+}
+
+.current-weather-props-component__item p {
+	font-weight: 300;
+}

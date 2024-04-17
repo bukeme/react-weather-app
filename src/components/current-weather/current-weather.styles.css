@@ -1,0 +1,12 @@
+.current-weather-component {
+	margin: 30px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.current-weather-component__divider {
+	width: 2px;
+	align-self: stretch;
+	background-color: rgba(255, 255, 255, 0.3);
+}

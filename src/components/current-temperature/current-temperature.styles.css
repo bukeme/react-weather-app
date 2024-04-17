@@ -1,0 +1,25 @@
+.current-temperature-component {
+	display: flex;
+	align-items: center;
+	padding: 0 40px;
+	/*width: calc(50% - 2px);
+	padding: 20px;
+	justify-content: space-between;*/
+}
+
+.current-temperature-component__icon {
+	width: 200px;
+}
+
+.current-temperature-component__temp {
+	margin-left: 40px;
+}
+
+.current-temperature-component__temp h1 {
+	font-size: 90px;
+	font-weight: 300;
+}
+
+.current-temperature-component__temp p {
+	font-size: 20px;
+}
