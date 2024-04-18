@@ -13,3 +13,15 @@
 .current-weather-props-component__item p {
 	font-weight: 300;
 }
+
+@media screen and (max-width: 768px) {
+	.current-weather-props-component {
+		padding: 25px 0 0;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	.current-weather-props-component {
+		grid-gap: 30px 25px;
+	}
+}

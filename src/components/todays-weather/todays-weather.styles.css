@@ -5,7 +5,7 @@
 
 .todays-weather-component__container {
 	display: grid;
-	grid-template-columns: repeat(7, 1fr);
+	grid-template-columns: repeat(7, minmax(0, 1fr));
 	grid-gap: 20px;
 }
 
@@ -21,4 +21,18 @@
 
 .todays-weather-component__item img {
 	margin: 10px 0;
+}
+
+@media screen and (max-width: 900px) {
+	.todays-weather-component__container {
+		grid-template-columns: repeat(4, minmax(0, 1fr));
+		grid-template-rows: 1fr 1fr;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.todays-weather-component__container {
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+		grid-gap: 10px;
+	}
 }

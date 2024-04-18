@@ -8,7 +8,42 @@
 }
 
 .next-weathers-component__container--weather {
-	display: flex;
-	justify-content: space-evenly;
+	display: grid;
+	justify-content: space-around;
+	grid-template-columns: repeat(6, 50px);
 	background-color: rgba(0, 0, 0, .2);
+	margin-bottom: 10px;
+	padding: 15px 0;
+	border-radius: 5px;
+}
+
+/*.next-weathers-component__container--weather__item {
+	width: 50px;
+}*/
+
+.next-weathers-component__container--weather__item h2 {
+	font-weight: 500;
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+
+.next-weathers-component__container--weather__item p {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+@media screen and (max-width: 620px) {
+	.next-weathers-component__container--weather__item h2 {
+		font-size: 18px;
+	}
+
+	.next-weathers-component__container--weather__item p {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 620px) {
+	.next-weathers-component__container--weather {
+		grid-template-columns: repeat(3, 50px);
+		grid-row-gap: 10px;
+	}
 }

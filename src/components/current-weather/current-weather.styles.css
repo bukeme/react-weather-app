@@ -1,12 +1,24 @@
 .current-weather-component {
-	margin: 30px 0;
+	margin: 40px 0;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
 .current-weather-component__divider {
-	width: 2px;
+	width: 1px;
 	align-self: stretch;
 	background-color: rgba(255, 255, 255, 0.3);
+	flex-shrink: 0;
+}
+
+@media screen and (max-width: 768px) {
+	.current-weather-component {
+		flex-direction: column;
+	}
+
+	.current-weather-component__divider {
+		width: 100%;
+		height: 1px;
+	}
 }

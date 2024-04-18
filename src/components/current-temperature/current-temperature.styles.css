@@ -23,3 +23,23 @@
 .current-temperature-component__temp p {
 	font-size: 20px;
 }
+
+@media screen and (max-width: 768px) {
+	.current-temperature-component {
+		padding: 0 0 10px;
+	}
+}
+
+@media screen and (max-width: 370px) {
+	.current-temperature-component__temp {
+		margin-left: 20px;
+	}
+
+	.current-temperature-component__icon {
+		width: 150px;
+	}
+
+	.current-temperature-component__temp h1 {
+		font-size: 60px;
+	}
+}

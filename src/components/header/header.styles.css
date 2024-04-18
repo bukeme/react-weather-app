@@ -36,3 +36,18 @@ form {
 	left: 15px;
 	transform: translateY(-50%);
 }
+
+@media screen and (max-width: 620px) {
+	.header-component {
+		flex-direction: column;
+	}
+
+	.city-container {
+		order: 2;
+	}
+
+	form {
+		order: 1;
+		margin-bottom: 20px;
+	}
+}
