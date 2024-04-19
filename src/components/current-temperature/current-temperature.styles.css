@@ -12,7 +12,7 @@
 }
 
 .current-temperature-component__temp {
-	margin-left: 40px;
+	margin-left: 20px;
 }
 
 .current-temperature-component__temp h1 {
@@ -32,7 +32,7 @@
 
 @media screen and (max-width: 370px) {
 	.current-temperature-component__temp {
-		margin-left: 20px;
+		margin-left: 10px;
 	}
 
 	.current-temperature-component__icon {
